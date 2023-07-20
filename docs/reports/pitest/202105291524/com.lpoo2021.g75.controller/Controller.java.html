@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Controller.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lpoo2021.g75.controller;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.Game;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.view.GUI.GUI;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.io.IOException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public abstract class Controller&#60;T&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final T model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Controller(T model) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.model = model;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public T getModel() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_16'>1</a>
+<span>
+
+1. getModel : replaced return value with null for com/lpoo2021/g75/controller/Controller::getModel &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public abstract void step(Game game, GUI.ACTION action, long time) throws IOException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@2900553d_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@2900553d_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@2900553d_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getModel<br/><b>Killed by : </b>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepDown()]</span></span> replaced return value with null for com/lpoo2021/g75/controller/Controller::getModel &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepSelectResume()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideNormalGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepSelectRndGame()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepSelectTryAgain()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.PauseLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.PauseLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.RndMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.RndMapControllerTest]/[method:stepPlay()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepSelectBack()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepSelectExit()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepNothing()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepSelectBack()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepNothing()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepSelectContinue()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepSelectBack()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepSelectContinueLastLevel()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepQuit()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepSelectRestart()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepSelectSequentialGame()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownTeleportInBounds()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectPowerUp()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepSelectBack()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.GhostControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.GhostControllerTest]/[method:step()] (15 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepSelectExit()] (15 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepNothing()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.PauseRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.PauseRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepLose()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.GhostControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.GhostControllerTest]/[method:timePasses()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepSelectResume()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepWin()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.RndMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.RndMapControllerTest]/[method:stepWin()] (15 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepSelectExit()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideNormalGhost()] (15 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepNothing()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideNormalGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepSelectBack()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.WinRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.WinRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.RndGameStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.RndGameStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepSelectExit()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepPlay()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepSelectTryAgain()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseLevelMenuControllerTest]/[method:stepSelectRestart()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepDown()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepNothing()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.gamestates.MainMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.MainMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepUp()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.LevelGameStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LevelGameStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.PauseRndMenuControllerTest]/[method:stepNothing()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepSelectTryAgain()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.RndMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.RndMapControllerTest]/[method:stepQuit()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.WinLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.WinLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseRndMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.MainMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.MainMenuControllerTest]/[method:stepSelectExit()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinRndMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepSelectBackLastLevel()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideNormalGhost()] (16 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepSelectBack()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.WinLevelMenuControllerTest]/[method:stepDown()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.RndMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.RndMapControllerTest]/[method:stepLose()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideWall()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideParalyzedGhost()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.LoseRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LoseRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.menu.LoseLevelMenuControllerTest]/[method:stepNothing()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.3
+
+</body>
+</html>

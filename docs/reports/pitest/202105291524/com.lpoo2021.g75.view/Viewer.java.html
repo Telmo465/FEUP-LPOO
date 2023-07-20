@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Viewer.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lpoo2021.g75.view;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.view.GUI.GUI;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.io.IOException;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public abstract class Viewer&#60;T&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final T model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Viewer(T model) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.model = model;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public T getModel() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_15'/>
+15
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_15'>1</a>
+<span>
+
+1. getModel : replaced return value with null for com/lpoo2021/g75/view/Viewer::getModel &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void draw(GUI gui) throws IOException {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_19'>1</a>
+<span>
+
+1. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::clear &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        gui.clear();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_20'>1</a>
+<span>
+
+1. draw : removed call to com/lpoo2021/g75/view/Viewer::drawElements &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        drawElements(gui);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_21'/>
+21
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_21'>1</a>
+<span>
+
+1. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::refresh &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        gui.refresh();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    protected abstract void drawElements(GUI gui);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@128403d8_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@128403d8_15'>15</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_15'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getModel<br/><b>Killed by : </b>com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest]/[method:initState()]</span></span> replaced return value with null for com/lpoo2021/g75/view/Viewer::getModel &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@128403d8_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:guiCalls()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::clear &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@128403d8_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.menu.MainMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.MainMenuViewerTest]/[method:drawElements()]</span></span> removed call to com/lpoo2021/g75/view/Viewer::drawElements &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@128403d8_21'>21</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@128403d8_21'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:guiCalls()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::refresh &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lpoo2021.g75.gamestates.LevelGameStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LevelGameStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.PauseRndMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.PauseRndMenuViewerTest]/[method:drawElements()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNormalGhosts()] (16 ms)</li><li>com.lpoo2021.g75.gamestates.PauseLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.PauseLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.PauseRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.PauseRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.WinRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.WinRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepLose()] (16 ms)</li><li>com.lpoo2021.g75.view.menu.WinLevelMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.WinLevelMenuViewerTest]/[method:drawElementsLastLevel()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.WinLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.WinLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawWalls()] (15 ms)</li><li>com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LoseLevelMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.RndGameStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.RndGameStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawKeys()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNotCollectedCoins()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawLegendText()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawClosedDoors()] (16 ms)</li><li>com.lpoo2021.g75.view.menu.LoseRndMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.LoseRndMenuViewerTest]/[method:drawElements()] (16 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPowerUps()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.MainMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.MainMenuViewerTest]/[method:drawElements()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPacman()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.WinLevelMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.WinLevelMenuViewerTest]/[method:drawElementsNotLastLevel()] (16 ms)</li><li>com.lpoo2021.g75.gamestates.LoseRndMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.LoseRndMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.PauseLevelMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.PauseLevelMenuViewerTest]/[method:drawElements()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:guiCalls()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.LoseLevelMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.LoseLevelMenuViewerTest]/[method:drawElements()] (0 ms)</li><li>com.lpoo2021.g75.gamestates.MainMenuStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.gamestates.MainMenuStateTest]/[method:initState()] (0 ms)</li><li>com.lpoo2021.g75.view.menu.WinRndMenuViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.menu.WinRndMenuViewerTest]/[method:drawElements()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.3
+
+</body>
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>GhostViewer.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lpoo2021.g75.view.game;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostState;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.controller.game.elements.ghosts.states.ParalyzeGhostState;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.*;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.view.GUI.GUI;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public class GhostViewer implements ElementViewer&#60;Ghost&#62; {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void draw(Ghost ghost, GUI gui) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        boolean paralyze = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_13'/>
+13
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_13'>1</a>
+<span>
+
+1. draw : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (ghost.getState() instanceof ParalyzeGhostState)</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            paralyze = true;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_16'/>
+16
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_16'>2</a>
+<span>
+
+1. draw : negated conditional &rarr; KILLED<br/>
+
+2. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::drawKillerGhost &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (ghost instanceof KillerGhost) gui.drawKillerGhost(ghost.getPosition(), paralyze);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_17'/>
+17
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_17'>2</a>
+<span>
+
+1. draw : negated conditional &rarr; KILLED<br/>
+
+2. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::drawReduceScoreGhost &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        else if (ghost instanceof ReduceScoreGhost) gui.drawReduceScoreGhost(ghost.getPosition(), paralyze);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_18'/>
+18
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_18'>2</a>
+<span>
+
+1. draw : negated conditional &rarr; KILLED<br/>
+
+2. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::drawResetCoinsGhost &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        else if (ghost instanceof ResetCoinsGhost) gui.drawResetCoinsGhost(ghost.getPosition(), paralyze);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_19'>2</a>
+<span>
+
+1. draw : negated conditional &rarr; KILLED<br/>
+
+2. draw : removed call to com/lpoo2021/g75/view/GUI/GUI::drawEliminatePwUGhost &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        else if (ghost instanceof EliminatePowerUpsGhost) gui.drawEliminatePwUGhost(ghost.getPosition(), paralyze);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@66ed4881_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66ed4881_13'>13</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_13'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66ed4881_16'>16</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_16'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalKillerGhost()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::drawKillerGhost &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66ed4881_17'>17</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_17'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalReduceScoreGhost()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::drawReduceScoreGhost &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66ed4881_18'>18</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_18'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalResetCoinsGhost()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::drawResetCoinsGhost &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@66ed4881_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@66ed4881_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>draw<br/><b>Killed by : </b>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()]</span></span> removed call to com/lpoo2021/g75/view/GUI/GUI::drawEliminatePwUGhost &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalReduceScoreGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalResetCoinsGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawClosedDoors()] (16 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPowerUps()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawParalyzedKillerGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPacman()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNormalGhosts()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepLose()] (16 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalKillerGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawNormalEliminatePowerUpsGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawParalyzedReduceScoreGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:guiCalls()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawWalls()] (15 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawParalyzedEliminatePowerUpsGhost()] (16 ms)</li><li>com.lpoo2021.g75.view.game.GhostViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GhostViewerTest]/[method:drawParalyzedResetCoinsGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawKeys()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNotCollectedCoins()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawLegendText()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.3
+
+</body>
+</html>

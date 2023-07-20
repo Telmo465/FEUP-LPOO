@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Position.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lpoo2021.g75.model.game;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Objects;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class Position {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int x;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Position(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.x = x;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.y = y;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Position(Position position) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.x = position.getX();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.y = position.getY();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public int getX() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_20'>1</a>
+<span>
+
+1. getX : replaced int return with 0 for com/lpoo2021/g75/model/game/Position::getX &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return x;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public int getY() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_24'/>
+24
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_24'>1</a>
+<span>
+
+1. getY : replaced int return with 0 for com/lpoo2021/g75/model/game/Position::getY &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_25'/>
+25
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_25'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getRight() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_28'/>
+28
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_28'>2</a>
+<span>
+
+1. getRight : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+2. getRight : replaced return value with null for com/lpoo2021/g75/model/game/Position::getRight &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new Position(x + 1, y);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_30'/>
+30
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_30'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getLeft() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_32'/>
+32
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_32'>2</a>
+<span>
+
+1. getLeft : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+2. getLeft : replaced return value with null for com/lpoo2021/g75/model/game/Position::getLeft &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new Position(x - 1, y);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_35'/>
+35
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_35'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getUp() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_36'/>
+36
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_36'>2</a>
+<span>
+
+1. getUp : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+2. getUp : replaced return value with null for com/lpoo2021/g75/model/game/Position::getUp &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new Position(x, y - 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_38'/>
+38
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_38'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_39'/>
+39
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_39'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getDown() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_40'/>
+40
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_40'>2</a>
+<span>
+
+1. getDown : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+2. getDown : replaced return value with null for com/lpoo2021/g75/model/game/Position::getDown &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new Position(x, y + 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_41'/>
+41
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_41'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_42'/>
+42
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_42'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_43'/>
+43
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_43'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getRandomNeighbour() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_44'/>
+44
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_44'>1</a>
+<span>
+
+1. getRandomNeighbour : Replaced double multiplication with division &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        int n = (int) (Math.random() * 4);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_45'/>
+45
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_45'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        switch (n) {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_46'/>
+46
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_46'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case 0:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_47'/>
+47
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_47'>1</a>
+<span>
+
+1. getRandomNeighbour : replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>                return getUp();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_48'/>
+48
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_48'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case 1:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_49'/>
+49
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_49'>1</a>
+<span>
+
+1. getRandomNeighbour : replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>                return getRight();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_50'/>
+50
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_50'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            case 2:</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_51'/>
+51
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_51'>1</a>
+<span>
+
+1. getRandomNeighbour : replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>                return getDown();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_52'/>
+52
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_52'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>            default:</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_53'/>
+53
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_53'>1</a>
+<span>
+
+1. getRandomNeighbour : replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>                return getLeft();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_54'/>
+54
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_54'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_55'/>
+55
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_55'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_56'/>
+56
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_56'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_57'/>
+57
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_57'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_58'/>
+58
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_58'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean equals(Object o) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_59'/>
+59
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_59'>2</a>
+<span>
+
+1. equals : replaced boolean return with false for com/lpoo2021/g75/model/game/Position::equals &rarr; NO_COVERAGE<br/>
+
+2. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if (this == o) return true;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_60'/>
+60
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_60'>3</a>
+<span>
+
+1. equals : replaced boolean return with true for com/lpoo2021/g75/model/game/Position::equals &rarr; NO_COVERAGE<br/>
+
+2. equals : negated conditional &rarr; KILLED<br/>
+
+3. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        if (o == null || getClass() != o.getClass()) return false;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_61'/>
+61
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_61'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_62'/>
+62
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_62'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        Position position = (Position) o;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_63'/>
+63
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_63'>3</a>
+<span>
+
+1. equals : replaced boolean return with true for com/lpoo2021/g75/model/game/Position::equals &rarr; KILLED<br/>
+
+2. equals : negated conditional &rarr; KILLED<br/>
+
+3. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return x == position.x &#38;&#38; y == position.y;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_64'/>
+64
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_64'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_65'/>
+65
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_65'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_66'/>
+66
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_66'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_67'/>
+67
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_67'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public int hashCode() {</span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_68'/>
+68
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_68'>1</a>
+<span>
+
+1. hashCode : replaced int return with 0 for com/lpoo2021/g75/model/game/Position::hashCode &rarr; NO_COVERAGE<br/>
+
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class='survived'>        return Objects.hash(x, y);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_69'/>
+69
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_69'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@51b4ab43_70'/>
+70
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_70'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getX<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getLeft()]</span></span> replaced int return with 0 for com/lpoo2021/g75/model/game/Position::getX &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_24'>24</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_24'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getY<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getLeft()]</span></span> replaced int return with 0 for com/lpoo2021/g75/model/game/Position::getY &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_28'>28</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_28'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRight<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRight()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getRight<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRight()]</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getRight &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_32'>32</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_32'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getLeft<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getLeft()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getLeft<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getLeft()]</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getLeft &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_36'>36</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_36'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getUp<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getUp()]</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getUp<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getUp()]</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getUp &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_40'>40</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_40'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getDown<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getDown()]</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>getDown<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getDown()]</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getDown &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_44'>44</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_44'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRandomNeighbour<br/><b>Killed by : </b>none</span></span> Replaced double multiplication with division &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_47'>47</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_47'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRandomNeighbour<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_49'>49</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_49'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRandomNeighbour<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_51'>51</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_51'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRandomNeighbour<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_53'>53</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_53'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getRandomNeighbour<br/><b>Killed by : </b>none</span></span> replaced return value with null for com/lpoo2021/g75/model/game/Position::getRandomNeighbour &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_59'>59</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_59'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced boolean return with false for com/lpoo2021/g75/model/game/Position::equals &rarr; NO_COVERAGE</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRandomNeighbour()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_60'>60</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_60'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>none</span></span> replaced boolean return with true for com/lpoo2021/g75/model/game/Position::equals &rarr; NO_COVERAGE</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:nextPositionLeft()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:nextPositionLeft()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_63'>63</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_63'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRandomNeighbour()]</span></span> replaced boolean return with true for com/lpoo2021/g75/model/game/Position::equals &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.RandomMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.RandomMovementStrategyTest]/[method:nextPosition()]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:nextPositionLeft()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@51b4ab43_68'>68</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@51b4ab43_68'/> 
+
+<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> replaced int return with 0 for com/lpoo2021/g75/model/game/Position::hashCode &rarr; NO_COVERAGE</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest]/[method:stepEmptyAttack()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:positionInit()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideNormalGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest]/[method:nextPositionUp()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawKey()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:positionCopy()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest]/[method:createKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNotCollectedCoins()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawWall()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawReduceScoreGhost()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.KillerGhostTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.KillerGhostTest]/[method:createKillerGhost()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:collectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawPacman()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.RandomMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.RandomMapBuilderTest]/[method:createPacman()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.RandomMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.RandomMovementStrategyTest]/[method:nextPosition()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.DoorTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.DoorTest]/[method:createDoor()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:getGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownTeleportInBounds()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectPowerUp()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawApple()] (16 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getLeft()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawNormalGhosts()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepLose()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:collectCoins()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawKillerGhost()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:teleport()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawKeys()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawLegendText()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest]/[method:createPear()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:nextPositionRight()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawText()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:createCoin()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest]/[method:createOrange()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideNormalGhost()] (15 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRandomNeighbour()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideNormalGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectCoin()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.RandomMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.RandomMapBuilderTest]/[method:createRandomMap()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:nextPositionLeft()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest]/[method:createCherry()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.EliminatePowerUpsGhostTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.EliminatePowerUpsGhostTest]/[method:createEliminatePowerUpsGhost()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawWalls()] (15 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:isEmpty()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.ResetCoinsGhostTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.ResetCoinsGhostTest]/[method:createResetCoinsGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest]/[method:nextPositionDown()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:isGhost()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:collectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPowerUps()] (0 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawPacman()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideParalyzedGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest]/[method:stepNotEmpty()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownEmpty()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.WallTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.WallTest]/[method:createWall()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.ReduceScoreGhostTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.dynamicElements.ghosts.ReduceScoreGhostTest]/[method:createReduceScoreGhost()] (0 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getUp()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.dynamicElements.PacmanTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.dynamicElements.PacmanTest]/[method:createPacman()] (0 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getDown()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawCherry()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpTeleportInBounds()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.HorizontalMovementStrategyTest]/[method:consecutivePositions()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:isKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.states.NormalGhostStateTest]/[method:stepEmptyNoAttack()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.FileMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.FileMapBuilderTest]/[method:createPacman()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawTitle()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawPear()] (16 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest]/[method:createApple()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawDoor()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideWall()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:hasNotCollectedCoins()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:isPowerUp()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollideClosedDoor()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawEliminatePwUGhost()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollideNormalGhost()] (16 ms)</li><li>com.lpoo2021.g75.view.game.GameViewerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.game.GameViewerTest]/[method:drawClosedDoors()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpEmpty()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollideWall()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollideParalyzedGhost()] (15 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.movementStrategies.VerticalMovementStrategyTest]/[method:consecutivePositions()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.model.game.PositionTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.PositionTest]/[method:getRight()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.FileMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.FileMapBuilderTest]/[method:createFileMap()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawOrange()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawGameSymbols()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:createMap()] (0 ms)</li><li>com.lpoo2021.g75.view.GUI.LanternaGUITest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.view.GUI.LanternaGUITest]/[method:drawResetCoinsGhost()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.3
+
+</body>
+</html>

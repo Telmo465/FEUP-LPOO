@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>CollectableElement.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package com.lpoo2021.g75.model.game.elements.fixedElements.collectable;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.lpoo2021.g75.model.game.elements.FixedElement;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public abstract class CollectableElement extends FixedElement {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    protected boolean collected;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public CollectableElement(int x, int y) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        super(x, y);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.collected = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean isCollected() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_14'>2</a>
+<span>
+
+1. isCollected : replaced boolean return with false for com/lpoo2021/g75/model/game/elements/fixedElements/collectable/CollectableElement::isCollected &rarr; KILLED<br/>
+
+2. isCollected : replaced boolean return with true for com/lpoo2021/g75/model/game/elements/fixedElements/collectable/CollectableElement::isCollected &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return this.collected;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void place() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.collected = false;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public abstract void collect();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@585cbbde_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@585cbbde_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@585cbbde_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCollected<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:collectCoin()]</span></span> replaced boolean return with false for com/lpoo2021/g75/model/game/elements/fixedElements/collectable/CollectableElement::isCollected &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCollected<br/><b>Killed by : </b>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:createCoin()]</span></span> replaced boolean return with true for com/lpoo2021/g75/model/game/elements/fixedElements/collectable/CollectableElement::isCollected &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest]/[method:collectCherry()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.RandomMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.RandomMapBuilderTest]/[method:createRandomMap()] (16 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest]/[method:placeOrange()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:placeCoin()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest]/[method:collectKey()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest]/[method:createApple()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest]/[method:createCherry()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.LevelMapControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.LevelMapControllerTest]/[method:stepLose()] (16 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:hasNotCollectedCoins()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest]/[method:placeKey()] (16 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest]/[method:collectOrange()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.keys.KeyTest]/[method:createKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:collectCoins()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:collectCoin()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest]/[method:createPear()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest]/[method:collectApple()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.CoinTest]/[method:createCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveRightCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.AppleTest]/[method:placeApple()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest]/[method:placePear()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.OrangeTest]/[method:createOrange()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.PearTest]/[method:collectPear()] (15 ms)</li><li>com.lpoo2021.g75.model.game.map.FileMapBuilderTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.FileMapBuilderTest]/[method:createFileMap()] (0 ms)</li><li>com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.elements.fixedElements.collectable.powerUps.CherryTest]/[method:placeCherry()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectKey()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveUpCollectCoin()] (16 ms)</li><li>com.lpoo2021.g75.controller.game.elements.ghosts.attackStrategies.ResetCoinsAttackStrategyTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.ghosts.attackStrategies.ResetCoinsAttackStrategyTest]/[method:attackResetCoins()] (0 ms)</li><li>com.lpoo2021.g75.model.game.map.MapTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.model.game.map.MapTest]/[method:createMap()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveLeftCollectCoin()] (0 ms)</li><li>com.lpoo2021.g75.controller.game.elements.PacmanControllerTest.[engine:junit-jupiter]/[class:com.lpoo2021.g75.controller.game.elements.PacmanControllerTest]/[method:moveDownCollectCoin()] (0 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.6.3
+
+</body>
+</html>
